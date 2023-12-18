@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4378966 */
+  src: url('iconfont.svg?t=1702914789981#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-a-004_bofang:before {
+  content: "\e616";
+}
+
+.icon-a-004_caidan:before {
+  content: "\e619";
+}
+
+.icon-a-004_erweima:before {
+  content: "\e61a";
+}
+
+.icon-a-004_fasong:before {
+  content: "\e61d";
+}
+
+.icon-a-004_fenxiang:before {
+  content: "\e61e";
+}
+
+.icon-a-004_hongbao:before {
+  content: "\e61f";
+}
+
+.icon-a-004_gouwuche:before {
+  content: "\e623";
+}
+
+.icon-a-004_jiahaoyou:before {
+  content: "\e624";
+}
+
+.icon-a-004_kefu:before {
+  content: "\e625";
+}
+
+.icon-a-004_lajitong:before {
+  content: "\e626";
+}
+
+.icon-a-004_shangchuan:before {
+  content: "\e627";
+}
+
+.icon-a-004_shoucang:before {
+  content: "\e628";
+}
+
+.icon-a-004_sixin:before {
+  content: "\e629";
+}
+
+.icon-a-004_shouye:before {
+  content: "\e62a";
+}
+
+.icon-a-004_sousuo:before {
+  content: "\e62b";
+}
+
+.icon-a-004_weizhi:before {
+  content: "\e634";
+}
+
+.icon-a-004_xiazai:before {
+  content: "\e635";
+}
+
+.icon-a-004_xihuan:before {
+  content: "\e636";
+}
+
+.icon-a-004_xiangji:before {
+  content: "\e637";
+}
+
+.icon-a-004_yinhangka:before {
+  content: "\e638";
+}
+
+.icon-a-004_zixun:before {
+  content: "\e639";
+}
+
+.icon-a-004_xiuxi:before {
+  content: "\e63a";
+}
+
+.icon-xingxing:before {
+  content: "\e8d6";
+}
+
+.icon-shengdanwa:before {
+  content: "\e8d7";
+}
+
+.icon-shengdanqiu:before {
+  content: "\e8d8";
+}
+
+.icon-shengdanrili:before {
+  content: "\e8d9";
+}
+
+.icon-yuyan-copy:before {
+  content: "\e615";
+}
+
+.icon-chanpinxinxi-copy:before {
+  content: "\e617";
+}
+
+.icon-huifuchuchangshezhi-copy:before {
+  content: "\e618";
+}
+
+.icon-wifikaiguan-copy:before {
+  content: "\e61b";
+}
+
+.icon-tingchejiankong-copy:before {
+  content: "\e61c";
+}
+
+.icon-GPSshuiyin-copy:before {
+  content: "\e620";
+}
+
+.icon-GPSxianshi-copy:before {
+  content: "\e621";
+}
+
+.icon-GPSxinxi-copy:before {
+  content: "\e622";
+}
+
+.icon-pinshanpinshuai-copy:before {
+  content: "\e640";
+}
+
+.icon-Histogram:before {
+  content: "\e62c";
+}
+
+.icon-List:before {
+  content: "\e62d";
+}
+
+.icon-Promotion:before {
+  content: "\e62e";
+}
+
+.icon-ArrowDownBold:before {
+  content: "\e62f";
+}
+
+.icon-ArrowLeftBold:before {
+  content: "\e630";
+}
+
+.icon-ArrowRightBold:before {
+  content: "\e631";
+}
+
+.icon-warning:before {
+  content: "\e632";
+}
+
+.icon-ArrowUpBold:before {
+  content: "\e633";
+}
+
