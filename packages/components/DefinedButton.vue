@@ -1,7 +1,20 @@
-<script setup>
+<script >
 // const iconName = defineProps(iconName)
 // const svgClass = defineProps(svgClass)
-defineProps({
+import DefinedIcon from './DefinedIcon.vue'
+import { defineComponent } from 'vue'
+export default defineComponent({
+  extends: DefinedIcon, //extends不能继承语法糖里面的内容 setup的自定义事件
+  props: {
+    name: {
+      type: String,
+      default: ''
+    }
+  },
+
+})
+
+/* defineProps({
   iconName: {
     type: String,
     default: '#icon-ArrowLeftBold'
@@ -10,14 +23,14 @@ defineProps({
     type: String,
     default: ''
   }
-})
-const emit = defineEmits(
+}) */
+/* const emit = defineEmits(
   ['handleClick']
-)
-const handleClick = () => {
+) */
+/* const handleClick = () => {
   console.log(1)
   emit('handleClick')
-}
+} */
 </script>
 <template>
 

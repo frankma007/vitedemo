@@ -1,7 +1,7 @@
-<script setup>
+<script >
 // const iconName = defineProps(iconName)
 // const svgClass = defineProps(svgClass)
-defineProps({
+/* defineProps({
   iconName: {
     type: String,
     default: '#icon-ArrowLeftBold'
@@ -13,15 +13,36 @@ defineProps({
 })
 const emit = defineEmits(
   ['handleClick']
-)
-const handleClick = () => {
-  emit('handleClick')
-}
+) */
+import { defineComponent } from 'vue'
+export default defineComponent({
+
+  emits: [], // 不声明事件
+  props: {
+    iconName: {
+      type: String,
+      default: '#icon-ArrowLeftBold'
+    },
+    svgClass: {
+      type: String,
+      default: ''
+    }
+  },
+  setup () {
+    /* const handleClick = () => {
+      console.log(555)
+      emit('handleClick')
+    } */
+
+  }
+
+})
+
 </script>
 <template>
 
   <svg :class="svgClass"
-       @click="handleClick"
+       v-on:click="$emit('click', $event)"
        class="icon"
        aria-hidden="true">
     <use :xlink:href="'#'+iconName"></use>

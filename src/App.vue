@@ -1,4 +1,5 @@
 <script setup>
+//封装组件尽量使用 组合形式不用setup script 方便继承
 // import HelloWorld from './components/HelloWorld.vue'
 import { ref } from 'vue'
 
@@ -28,13 +29,13 @@ const btnClick = () => {
   <!-- svgClass="" -->
   {{ count }}
   <DefinedIcon iconName="icon-shengdanqiu"
-               @handleClick="handleClick"></DefinedIcon>
+               v-on:click="handleClick"></DefinedIcon>
   <DefinedIcon iconName="icon-yuyan-copy"
                svgClass="btnicn"
-               @handleClick="handleClick"></DefinedIcon>
+               v-on:click="handleClick"></DefinedIcon>
   <!-- <HelloWorld msg="从现在开始，每天30分钟视频" /> -->
   <DefinedButton iconName="icon-a-004_kefu"
-                 @handleClick="btnClick"
+                 v-on:click="btnClick"
                  name="提交">
 
   </DefinedButton>
